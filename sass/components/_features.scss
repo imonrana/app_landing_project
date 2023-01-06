@@ -1,0 +1,70 @@
+@import "../variable/variables";
+
+
+// features css start
+
+#features{
+    .features_shape{
+        padding-top: 20px;
+        img{
+            width: 100%;
+        }
+    }
+    .title{
+        padding-top: 100px;
+        h2{
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 1.2;
+                margin-bottom: 15px;
+            }
+        }
+        .single_features{
+            display: flex;
+            .icon{
+                height: 60px;
+                width: 60px;
+                padding: 25px;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                background: rgb(231,138,233);
+                background: -moz-linear-gradient(0deg, rgba(231,138,233,1) 34%, rgba(146,110,248,1) 75%);
+                background: -webkit-linear-gradient(0deg, rgba(231,138,233,1) 34%, rgba(146,110,248,1) 75%);
+                background: linear-gradient(0deg, rgba(231,138,233,1) 34%, rgba(146,110,248,1) 75%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e78ae9",endColorstr="#926ef8",GradientType=1);
+                position: relative;
+                span{
+                    position:absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    -webkit-transform: translate(-50%, -50%);
+                    -moz-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    -o-transform: translate(-50%, -50%);
+                    color: $regular-color;
+                    font-size: 30px;
+                }
+        }
+        .features_caption{
+            padding-left: 10px;
+            .title{
+                padding-top: 0;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 1.2;
+                margin-bottom: 10px;
+                color: #23182c;
+            
+        }
+        }
+        
+
+    }
+}
+
+
+// features css end

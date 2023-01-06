@@ -1,0 +1,121 @@
+@import "../variable/variables";
+
+// services css start
+
+
+#services{
+    background-color: #f4feff;
+    padding: 50px 0;
+    .title{
+        h2{
+            font-size: 50px;
+              font-weight: 700;
+             line-height: 1.2;
+             margin-bottom: 50px;
+        }
+    }
+    .main{
+        padding-top: 60px;
+        padding-left: 5px;
+        background-color: $regular-color;
+        border:1px solid transparent;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        position: relative;
+        transition: .4s;
+        -webkit-transition: .4s;
+        -moz-transition: .4s;
+        -ms-transition: .4s;
+        -o-transition: .4s;
+        &:hover{
+            border-color: $hover-color;
+            .bg_shape{
+                left: 50%;
+            }
+            .s_icon{
+                background-color: $hover-color;
+            }
+
+        }
+        .single_services{
+            display: flex;
+            justify-content: center;
+        }
+        .bg_shape{
+            position: absolute;
+            top: 18%;
+            left: 48%;
+            transition: .4s;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -ms-transition: .4s;
+            -o-transition: .4s;
+        }
+        .s_icon{
+            height: 80px;
+            width: 80px;
+            margin-top: 80px;
+            background-color: #e88cea;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            position: relative;
+            transition: .4s;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -ms-transition: .4s;
+            -o-transition: .4s;
+            span{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                -webkit-transform: translate(-50%, -50%);
+                -moz-transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+                -o-transform: translate(-50%, -50%);
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .caption{
+            text-align: center;
+            .caption_title{
+                font-family: "Nunito",sans-serif;
+                color: #2b044d;
+                margin-top: 50px;
+                font-style: normal;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 1.2;
+                margin-bottom: 27px;
+                a{
+                    color: #2b044d;
+                    transition: .4s;
+                    -webkit-transition: .4s;
+                    -moz-transition: .4s;
+                    -ms-transition: .4s;
+                    -o-transition: .4s;
+                    &:hover{
+                        color: $hover-color;
+                    }
+                }
+
+            }
+            .pera{
+                padding-bottom: 20px;
+            }
+        }
+        }
+
+    }
+
+
+
+// services css end

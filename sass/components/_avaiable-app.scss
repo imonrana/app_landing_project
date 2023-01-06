@@ -1,0 +1,85 @@
+@import "../variable/variables";
+
+
+// avaiable css start
+
+#avaiable_app{
+    position: relative;
+    margin: 40px 0;
+    padding-top: 220px;
+    padding-bottom: 200px;
+    background: rgb(108,25,246);
+    background: -moz-linear-gradient(90deg, rgba(108,25,246,1) 0%, rgba(249,33,141,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(108,25,246,1) 0%, rgba(249,33,141,1) 100%);
+    background: linear-gradient(90deg, rgba(108,25,246,1) 0%, rgba(249,33,141,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6c19f6",endColorstr="#f9218d",GradientType=1);
+    &::before{
+        content: " ";
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        background-image: url("../../app landing project/images/app-shape-left.png");
+    }
+    .get_app{
+        
+        .title{
+            h2{
+                color: #fff;
+                font-size: 50px;
+                margin-bottom: 35px;
+                font-weight: 600;
+                font-family: $primary-font;
+            }
+            .pera{
+                color: #fff !important;
+                padding-right: 52px;
+                padding-bottom: 26px;
+                font-size: 20px;
+                
+            }
+        }
+        .app_btn{
+            display: flex;
+            .app_btn_1{
+                margin-right: 15px;
+                cursor: pointer;
+            }
+            .app_btn_2{
+                cursor: pointer;
+            }
+        }
+        .app_shape{
+            position: absolute;
+            top: 90px;
+            left: 106px;
+            img{
+            animation: heartbet 1s infinite alternate;
+            -webkit-animation: heartbet 1s infinite alternate;
+            transition: .4s;
+            -webkit-transition: .4s;
+            -moz-transition: .4s;
+            -ms-transition: .4s;
+            -o-transition: .4s;
+            @keyframes heartbet{
+                0%{
+                    width: 70px;
+                    height: 70px;
+                }
+
+                100%{
+                    width: 50px;
+                    height: 50px;
+                }
+                
+            }
+        }
+                
+            }
+}
+    }
+
+
+
+// avaiable css end

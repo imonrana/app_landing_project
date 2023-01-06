@@ -1,0 +1,81 @@
+@import "../variable/variables";
+
+// navbar css start
+
+#nav_bar{
+    background-color: rgb(244, 254, 255);
+    position: sticky;
+    top:0;
+    z-index: 9999;
+    ul{
+        li{
+            margin-left: 20px;
+
+            a{
+                font-family: $primary-font;
+                font-size: 16px;
+                font-weight: 400;
+                color: $primary-color;
+                position: relative;
+                transition: .4s;
+                -webkit-transition: .4s;
+                -moz-transition: .4s;
+                -ms-transition: .4s;
+                -o-transition: .4s;
+                &::before{
+                    content: "";
+                    height: 2px;
+                    width: 0%;
+                    position:absolute;
+                    bottom: 0%;
+                    left: 0%;
+                    background-color:#a60dcf;
+                    transition: .4s;
+                    -webkit-transition: .4s;
+                    -moz-transition: .4s;
+                    -ms-transition: .4s;
+                    -o-transition: .4s;
+                }
+                &:hover{
+                    &::before{
+                        width: 100%;
+                    }
+                }
+                
+            }
+           .dropdown{
+            a{
+                &::before{
+                    width: 0px;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    -webkit-transform: translateY(-50%);
+                    -moz-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+                    -o-transform: translateY(-50%);
+                    transition: .4s;
+                    -webkit-transition: .4s;
+                    -moz-transition: .4s;
+                    -ms-transition: .4s;
+                    -o-transition: .4s;
+                }
+                &:hover{
+                    &::before{
+                        width: 15px;
+                    }
+                }
+                &:hover{
+                    padding-left: 25px !important;
+                    background-color: transparent;
+                }
+            }
+           
+           }
+        }
+    }
+}
+
+// navbar css end
+
+
